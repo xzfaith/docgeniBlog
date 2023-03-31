@@ -1,0 +1,295 @@
+{
+  "navs": [
+    {
+      "id": "guids",
+      "path": "guids",
+      "channelPath": "guids",
+      "title": "指南",
+      "items": [
+        {
+          "id": "guids/reference",
+          "path": "guids/reference",
+          "channelPath": "guids",
+          "title": "参考",
+          "items": [
+            {
+              "id": "node",
+              "path": "reference/node",
+              "channelPath": "guids",
+              "title": "node参考",
+              "order": 10,
+              "toc": "content",
+              "headings": [
+                {
+                  "id": "1%E3%80%81node-%E6%A1%86%E6%9E%B6",
+                  "name": "1、node 框架",
+                  "level": 3,
+                  "type": "h3"
+                }
+              ],
+              "contentPath": "blog/docs/guides/reference/node.html",
+              "originPath": "blog/docs/guides/reference/node.md"
+            },
+            {
+              "id": "ts-config",
+              "path": "reference/ts-config",
+              "channelPath": "guids",
+              "title": "ts配置参考",
+              "order": 11,
+              "toc": "content",
+              "headings": [
+                {
+                  "id": "tsconfig-json-%E9%85%8D%E7%BD%AE",
+                  "name": "tsconfig.json 配置",
+                  "level": 4,
+                  "type": "h4"
+                }
+              ],
+              "contentPath": "blog/docs/guides/reference/ts-config.html",
+              "originPath": "blog/docs/guides/reference/ts-config.md"
+            }
+          ],
+          "order": 1
+        }
+      ],
+      "order": 20
+    },
+    {
+      "id": "backend",
+      "path": "backend",
+      "channelPath": "backend",
+      "title": "后端",
+      "items": [
+        {
+          "id": "backend/database",
+          "path": "backend/database",
+          "channelPath": "backend",
+          "title": "数据库",
+          "items": [
+            {
+              "id": "mysql-install",
+              "path": "database/mysql-install",
+              "channelPath": "backend",
+              "title": "mysql安装",
+              "order": 10,
+              "toc": "content",
+              "headings": [
+                {
+                  "id": "%E4%B8%80%E3%80%81%E5%AE%89%E8%A3%85mysql",
+                  "name": "一、安装MySQL",
+                  "level": 3,
+                  "type": "h3"
+                },
+                {
+                  "id": "1%E3%80%81%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%EF%BC%9A-%3Ca-target=%22_blank%22-href=%22https://dev-mysql-com/downloads/mysql/%22%3Emysql-::-download-mysql-community-server%3C/a%3E",
+                  "name": "1、下载地址： <a target=\"_blank\" href=\"https://dev.mysql.com/downloads/mysql/\">MySQL :: Download MySQL Community Server</a>",
+                  "level": 4,
+                  "type": "h4"
+                },
+                {
+                  "id": "2%E3%80%81%E8%A7%A3%E5%8E%8B%E4%B9%8B%E5%90%8E%E6%93%8D%E4%BD%9C",
+                  "name": "2、解压之后操作",
+                  "level": 4,
+                  "type": "h4"
+                },
+                {
+                  "id": "3%E3%80%81%E5%9C%A8%E6%8A%8A%E4%B8%8B%E9%9D%A2%E7%9A%84%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF%E5%A4%8D%E5%88%B6%E5%88%B0my-ini%E6%96%87%E4%BB%B6%E4%B8%AD",
+                  "name": "3、在把下面的配置信息复制到my.ini文件中",
+                  "level": 4,
+                  "type": "h4"
+                },
+                {
+                  "id": "4%E3%80%81%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F",
+                  "name": "4、配置环境变量",
+                  "level": 4,
+                  "type": "h4"
+                },
+                {
+                  "id": "5%E3%80%81%E6%89%93%E5%BC%80%E5%91%BD%E4%BB%A4%E8%A1%8C",
+                  "name": "5、打开命令行",
+                  "level": 4,
+                  "type": "h4"
+                },
+                {
+                  "id": "%E7%99%BB%E5%BD%95mysql%E5%90%8E%EF%BC%8C%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A0%81%EF%BC%88%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81%E4%B8%BA%E7%A9%BA%EF%BC%89",
+                  "name": "登录mysql后，修改密码（默认密码为空）",
+                  "level": 3,
+                  "type": "h3"
+                },
+                {
+                  "id": "%E5%88%A0%E9%99%A4%E6%9C%8D%E5%8A%A1",
+                  "name": "删除服务",
+                  "level": 3,
+                  "type": "h3"
+                }
+              ],
+              "contentPath": "blog/docs/backend/database/mysql-install.html",
+              "originPath": "blog/docs/backend/database/mysql-install.md"
+            }
+          ],
+          "order": 21
+        },
+        {
+          "id": "backend/node",
+          "path": "backend/node",
+          "channelPath": "backend",
+          "title": "node",
+          "items": [],
+          "order": 9007199254740991
+        }
+      ],
+      "order": 21
+    },
+    {
+      "id": "getting-started",
+      "path": "getting-started",
+      "channelPath": "",
+      "title": "Getting Started",
+      "order": 30,
+      "toc": "content",
+      "headings": [
+        {
+          "id": "installation",
+          "name": "Installation",
+          "level": 2,
+          "type": "h2"
+        }
+      ],
+      "contentPath": "blog/docs/getting-started.html",
+      "originPath": "blog/docs/getting-started.md"
+    }
+  ],
+  "docs": [
+    {
+      "id": "mysql-install",
+      "path": "database/mysql-install",
+      "channelPath": "backend",
+      "title": "mysql安装",
+      "order": 10,
+      "toc": "content",
+      "headings": [
+        {
+          "id": "%E4%B8%80%E3%80%81%E5%AE%89%E8%A3%85mysql",
+          "name": "一、安装MySQL",
+          "level": 3,
+          "type": "h3"
+        },
+        {
+          "id": "1%E3%80%81%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%EF%BC%9A-%3Ca-target=%22_blank%22-href=%22https://dev-mysql-com/downloads/mysql/%22%3Emysql-::-download-mysql-community-server%3C/a%3E",
+          "name": "1、下载地址： <a target=\"_blank\" href=\"https://dev.mysql.com/downloads/mysql/\">MySQL :: Download MySQL Community Server</a>",
+          "level": 4,
+          "type": "h4"
+        },
+        {
+          "id": "2%E3%80%81%E8%A7%A3%E5%8E%8B%E4%B9%8B%E5%90%8E%E6%93%8D%E4%BD%9C",
+          "name": "2、解压之后操作",
+          "level": 4,
+          "type": "h4"
+        },
+        {
+          "id": "3%E3%80%81%E5%9C%A8%E6%8A%8A%E4%B8%8B%E9%9D%A2%E7%9A%84%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF%E5%A4%8D%E5%88%B6%E5%88%B0my-ini%E6%96%87%E4%BB%B6%E4%B8%AD",
+          "name": "3、在把下面的配置信息复制到my.ini文件中",
+          "level": 4,
+          "type": "h4"
+        },
+        {
+          "id": "4%E3%80%81%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F",
+          "name": "4、配置环境变量",
+          "level": 4,
+          "type": "h4"
+        },
+        {
+          "id": "5%E3%80%81%E6%89%93%E5%BC%80%E5%91%BD%E4%BB%A4%E8%A1%8C",
+          "name": "5、打开命令行",
+          "level": 4,
+          "type": "h4"
+        },
+        {
+          "id": "%E7%99%BB%E5%BD%95mysql%E5%90%8E%EF%BC%8C%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A0%81%EF%BC%88%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81%E4%B8%BA%E7%A9%BA%EF%BC%89",
+          "name": "登录mysql后，修改密码（默认密码为空）",
+          "level": 3,
+          "type": "h3"
+        },
+        {
+          "id": "%E5%88%A0%E9%99%A4%E6%9C%8D%E5%8A%A1",
+          "name": "删除服务",
+          "level": 3,
+          "type": "h3"
+        }
+      ],
+      "contentPath": "blog/docs/backend/database/mysql-install.html",
+      "originPath": "blog/docs/backend/database/mysql-install.md"
+    },
+    {
+      "id": "getting-started",
+      "path": "getting-started",
+      "channelPath": "",
+      "title": "Getting Started",
+      "order": 30,
+      "toc": "content",
+      "headings": [
+        {
+          "id": "installation",
+          "name": "Installation",
+          "level": 2,
+          "type": "h2"
+        }
+      ],
+      "contentPath": "blog/docs/getting-started.html",
+      "originPath": "blog/docs/getting-started.md"
+    },
+    {
+      "id": "node",
+      "path": "reference/node",
+      "channelPath": "guids",
+      "title": "node参考",
+      "order": 10,
+      "toc": "content",
+      "headings": [
+        {
+          "id": "1%E3%80%81node-%E6%A1%86%E6%9E%B6",
+          "name": "1、node 框架",
+          "level": 3,
+          "type": "h3"
+        }
+      ],
+      "contentPath": "blog/docs/guides/reference/node.html",
+      "originPath": "blog/docs/guides/reference/node.md"
+    },
+    {
+      "id": "ts-config",
+      "path": "reference/ts-config",
+      "channelPath": "guids",
+      "title": "ts配置参考",
+      "order": 11,
+      "toc": "content",
+      "headings": [
+        {
+          "id": "tsconfig-json-%E9%85%8D%E7%BD%AE",
+          "name": "tsconfig.json 配置",
+          "level": 4,
+          "type": "h4"
+        }
+      ],
+      "contentPath": "blog/docs/guides/reference/ts-config.html",
+      "originPath": "blog/docs/guides/reference/ts-config.md"
+    }
+  ],
+  "homeMeta": {
+    "title": "首页",
+    "hero": {
+      "title": "Docgeni",
+      "description": "开箱即用的 Angular 组件文档生成工具",
+      "banner": "https://cdn.pingcode.com/open-sources/docgeni/home/banner.png",
+      "actions": [
+        {
+          "text": "快速上手",
+          "link": "guides/intro/getting-started",
+          "btnShape": "round,",
+          "btnType": "outline-primary-light"
+        }
+      ]
+    },
+    "contentPath": "blog/docs/index.html"
+  }
+}
